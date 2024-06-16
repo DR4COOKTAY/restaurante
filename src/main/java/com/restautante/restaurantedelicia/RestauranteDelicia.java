@@ -11,6 +11,7 @@ package com.restautante.restaurantedelicia;
 public class RestauranteDelicia {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        FrmLogin iniciar = new FrmLogin();
+        iniciar.setVisible(true);
     }
 }
