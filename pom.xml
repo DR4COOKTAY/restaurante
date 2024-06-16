@@ -9,6 +9,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
-        <exec.mainClass>com.restautante.restaurantedelicia.RestauranteDelicia</exec.mainClass>
+        <exec.mainClass>com.restautante.restaurantedelicia.RestauranteDelicia</exec.mainClass>               
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.13.4</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>
